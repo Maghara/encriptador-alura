@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Alura, Encriptador - Desencriptador </title>
+</head>
+
+    <header>
+        <div class="caja">
+            <img src="src/OIP.jpeg">
+            <nav>
+                <ul>
+                    <h2>CHALLENGE: Encriptador y Desencriptar.</h2>
+                    
+                </ul>
+            </nav>
+        </div> 
+    </header>
+    <body>
+        <!--contenedor del encriptador-->
+        <div class="container">
+            <div class="encriptar"></div>
+
+            
+            <label for="input">Ten la confianza de colocar las palabras que quieres encriptar/desentriptar:</label>
+            <textarea name="texto" id="texto" class="texto"  cols="30" rows="10" placeholder="Escribe el texto que quieres encriptar o desencriptar en minuscula y sin acentos"></textarea>
+
+            <!--terminos o indicaciones -->
+
+                <div class="terminos">
+                    <p>Solo letras minusculas y sin acentos</p>
+                </div>
+
+                <!--Botones-->
+
+            <div class="botones">
+                <button id="boton-encriptar" class="boton" onclick="encriptar()">Encriptar</button>
+
+                <button id="boton desencriptar" class="boton" onclick="desencriptar()">Desencriptar</button>
+
+                <button id="boton-copia" class="boton" onclick="copiar()">Copiar</button>
+            </div>
+
+        <div>
+            <!--sección de resultado encritador-desencritador-->
+            <div class="resultado">
+                    <div class="aviso"><h2 id="titulo-mensaje">Tu resultado es:</h2><p id="mensaje">Ingresa el texto que deseas encriptar o desencriptar</p>
+                   
+                    </div>
+       
+                </div>
+                
+                
+        </div>
+                    <!--boton copiar-->
+           
+        </div>
+    
+
+        <!--Script donde esta las funciones para encriptar y desencritar-->
+
+        <script src="script.js"> </script>
+
+    </body>
+
+    <!--pie de pagina-->
+    <footer>
+        <img src="">
+        <p class="copyright">&copy; Copyright- Challenge Alura - Encriptador -  2023</p>
+    </footer>
+</html>

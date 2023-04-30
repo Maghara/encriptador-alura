@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+      
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.caja ul, .copyright{
+    font-size: 10px;
+    width: 1180px; 
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding-top: 27px;
+    padding-left: 34%; 
+       
+    
+}
+
+.caja img {
+   width: 80px;
+   position: relative;
+   margin-left: 5px;
+   margin-left: 1%; 
+   border-radius: 10%;
+   border: #008CBA;
+   border-radius: 20px;
+   border-style: double;
+   
+}
+
+.caja, .copyright{
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: #9a1691;
+    border-style: double;
+    margin-left: 8%;
+    margin-right: 15px;
+    margin-bottom: 0.5em;
+    
+}
+
+
+.container {
+    position: relative;
+    width: 1280px;
+    height: 550px;
+    background: whitesmoke;
+    align-items: center;
+    margin-left: 8%;
+    border: #008CBA;
+    border-radius: 22px;
+    border-style: double;
+    }
+
+.texto {
+    position: absolute;
+    width: 34%;
+    height: 65%;
+    left: 9%;
+    top: 12%;
+    font-size: 15px;
+    color: #4e4caf;
+    line-height: 150%;
+    background-color: ghostwhite;
+    border-radius: 10%;
+    border-color: blueviolet;
+    border-style: double;
+    }
+
+.texto::placeholder {
+    color: #4e4caf;
+    font-size: 14px;
+    width: 100%;
+    align-items: center;
+    left: 5px;   
+    }
+      
+.texto:focus, .texto:active {
+    outline: none;
+    border-radius: 10%;
+    border-color: #1182a8;
+    border-style: double;
+    }
+
+
+.terminos p{
+    display: flex;
+    color: #9a1691;
+    text-transform: lowercase;
+    font-size: 12px;
+    position: absolute;
+    left: 10%;
+    top: 78%;
+    
+      }
+
+
+
+
+
+label {
+    position: relative;
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px;
+    left: 9%;
+    top: 3%;
+    color: #1182a8;
+    text-align: center;
+    align-items: center;
+    text-shadow: #9a1691;
+    font-weight: bold;
+    font-style:italic;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    resize: none;
+    font-size: 11px;
+    padding: 10px;
+    margin-bottom: 7px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    text-transform: lowercase;
+}
+
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1% 0;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 80%;
+    
+}
+
+.boton {
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: #4e4caf;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 15px;
+    transition: all 0.1s; 
+    border-radius: 20px;
+    border-color: blueviolet;
+    border-style: double;
+    border: 3px;
+}
+
+.boton:hover {
+    background-color: #9a1691;
+    border-radius: 10%;
+    border-color: rgb(26, 133, 179);
+    border-style: double;
+    border-radius: 20px;
+}
+
+#boton-copia {
+    margin-left: 29%;
+}
+
+#boton-copia:hover {
+    background-color: #008CBA;
+}
+
+
+.resultado{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 32%;
+    height: 65%;
+    left: 58%;
+    top: 12%;
+    right: 15%;
+    background:whitesmoke;
+    border-radius: 10%;
+    bottom: 15%;
+    border-radius: 10%;
+    border-color: blueviolet;
+    border-style: double;
+
+    }
+  
+.aviso {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    padding: 1%;
+   font-size: 12px;
+   font-weight: bold;
+   position: absolute;
+   width: 100%;
+   top: 1%;
+   text-align: center;
+    color: #9a1691;
+      }
+  
+      #mensaje{
+        padding-top: 30%;
+        text-shadow: #9a1691;
+        font-style: italic;
+        color:#008CBA;
+        text-align: center;
+      }
+  
+  
+  .copyright{
+    width: 1280px;
+    margin: 1em;
+    margin-left: 8%;
+    
+  }
